@@ -26,3 +26,7 @@ const word = "hello";
 for (const character of word) {
     console.log(character);
 }
+const s = ["apple", "orange"];
+for (const i in s) {
+    console.log(i);
+}
